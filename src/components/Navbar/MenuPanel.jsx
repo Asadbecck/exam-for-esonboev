@@ -1,25 +1,31 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button} from 'react-bootstrap'
 // import { Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { LinkList } from "../../link/link"
 export default function MenuPanel() {
   return (
     <>
+      {/* <ButtonGroup vertical>
+        <Button>Button</Button>
+        <Button>Button</Button>
+        <Button>Button</Button>
+        <Button>Button</Button>
+      </ButtonGroup> */}
 
       {LinkList.map((val) => {
         return (
           <>
             <ol style={{
               textDecoration: "none",
-            marginBottom:"-4px",
-            marginLeft:"-40px",
-          }}>
+              marginBottom: "-4px",
+              marginLeft: "-40px",
+            }}>
               <Link style={{
-              padding: "10px 30px",
+                padding: "10px 30px",
                 textDecoration: "none",
                 backgroundColor: "black",
-                color: "white", 
+                color: "red",
                 textAlign: "center",
                 display: "inline-block",
                 borderRadius: "7px"
