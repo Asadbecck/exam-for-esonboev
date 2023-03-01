@@ -1,6 +1,6 @@
 import { List } from "@mui/material";
 import Moli from "../components/UsesTate/useState";
-import Text from "../components/text/text"
+// import Text from "../components/text/text"
 export const LinkList = [
     {
        title:"Inbox",
@@ -19,11 +19,5 @@ export const LinkList = [
         to:"/hello",
         element:<List/>,
         id:3
-    },
-    {
-        title:"Hello",
-        to:"/hello",
-        element:<Text/>,
-        id:4
     }
 ]
